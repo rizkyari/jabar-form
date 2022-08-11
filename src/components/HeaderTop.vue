@@ -38,4 +38,25 @@ li{
     cursor: pointer;
 }
 
+@media screen and (max-width: 800px) {
+    .logo-img{
+        width: 8em;
+        height: 4em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo-img{
+        width: 5em;
+        height: 3em;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .logo-img{
+        width: 3em;
+        height: 1em;
+    }
+}
+
 </style>

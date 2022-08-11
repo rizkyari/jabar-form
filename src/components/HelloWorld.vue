@@ -184,4 +184,16 @@ a {
   width: 97%;
 }
 
+@media screen and (max-width: 800px) {
+  .hello{
+    padding: 5em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hello{
+    padding: 1em;
+  }
+}
+
 </style>
